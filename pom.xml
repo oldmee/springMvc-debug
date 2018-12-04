@@ -125,8 +125,8 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-war-plugin</artifactId>
                     <configuration>
-                        <webappDirectory>${basedir}/src/main/webapp</webappDirectory>
-                        <warSourceDirectory>${basedir}/src/main/webapp</warSourceDirectory>
+                        <webappDirectory>${basedir}/webapp</webappDirectory>
+                        <warSourceDirectory>${basedir}/webapp</warSourceDirectory>
                     </configuration>
                 </plugin>
                 <plugin>
@@ -141,7 +141,7 @@
                                 <goal>copy-resources</goal>
                             </goals>
                             <configuration>
-                                <outputDirectory>${basedir}/src/webapp/WEB-INF/classes</outputDirectory>
+                                <outputDirectory>${basedir}/target/classes</outputDirectory>
                                 <resources>
                                     <resource>
                                         <directory>${basedir}/src/webapp/configs/*.xml</directory>
