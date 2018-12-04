@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="OFF" monitorInterval="1800">
     <properties>
-        <property name="LOG_HOME">/Users/tempImg</property>
+        <property name="LOG_HOME">D://Users/tempImg</property>
         <property name="FILE_NAME">finance-pay</property>
     </properties>
 
@@ -28,7 +28,7 @@
         <!-- <Logger name="com.cssweb.test.app" level="trace" additivity="true">
             <AppenderRef ref="running-log" /> </Logger> -->
 
-        <Root level="debug">
+        <Root level="info">
             <!-- 这里是输入到文件，很重要-->
             <AppenderRef ref="running-log" />
             <!-- 这里是输入到控制台-->

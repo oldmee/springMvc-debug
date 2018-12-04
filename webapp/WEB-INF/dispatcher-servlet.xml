@@ -21,9 +21,7 @@
     <!--<mvc:annotation-driven />-->
 
     <!-- configure the InternalResourceViewResolver -->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-          id="internalResourceViewResolver">
-        <property name ="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!-- 前缀 -->
         <property name="prefix" value="/WEB-INF/jsps/" />
         <!-- 后缀 -->

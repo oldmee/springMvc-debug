@@ -10,9 +10,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloMvcController {
 
     @RequestMapping("hello/mvc")
-    @ResponseBody
     public String helloMvc() {
         System.out.println("hello");
-        return "hello";
+        return "home";
     }
 }
